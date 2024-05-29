@@ -1,0 +1,30 @@
+4-
+package exx4;
+
+
+public class Exx4 {
+
+    public static void copia() {
+        int[] vetor1 = new int[] {10, 20, 30, 40, 50}; 
+        int[] vetor2 = new int[5]; 
+        
+        for (int i = 0; i < vetor2.length; i++) {
+            vetor2[i] = vetor1[i]; 
+        }
+
+        
+        System.out.println("--vetor1--");
+        for (int i = 0; i < vetor1.length; i++) {
+            System.out.print(vetor1[i] + " ");
+        }
+
+        System.out.println("\n--vetor2--");
+        for (int i = 0; i < vetor2.length; i++) {
+            System.out.print(vetor2[i] + " ");
+        }
+    }
+
+    public static void main(String[] args) {
+        copia();
+    }
+}

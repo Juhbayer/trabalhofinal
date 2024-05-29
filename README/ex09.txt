@@ -1,0 +1,15 @@
+9-package exx9;
+
+import java.util.Arrays;
+
+public class Exx9 {
+public static void crescente() {
+        int[] vetor = { 40, 25, 75, 1, 65, 90};
+        Arrays.sort(vetor);
+        System.out.println("Ordem: " + Arrays.toString(vetor));
+    }
+
+    public static void main(String[] args) {
+        crescente();
+    }
+}

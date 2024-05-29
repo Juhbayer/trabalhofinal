@@ -1,0 +1,21 @@
+2-package julinhalinda;
+
+public class Julinhalinda {
+
+    public static void maior() {
+        int[] vetor1 = new int[]{3, 5, 4, 2, 1};
+        int n = vetor1[0];
+        
+        for (int i = 1; i < vetor1.length; i++) {
+            if (n < vetor1[i]) {
+                n = vetor1[i];
+            }
+        }
+        
+        System.out.println("Maior elemento = " + n);
+    }
+
+    public static void main(String[] args) {
+        maior();
+    }
+}

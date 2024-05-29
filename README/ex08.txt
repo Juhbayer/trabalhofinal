@@ -1,0 +1,22 @@
+8-package ex8;
+
+import java.util.Arrays;
+
+
+public class Ex8 {
+
+    public static void remover() {
+        int[] vetor = {10, 20, 30, 40, 50};
+        int[] limpar = new int[vetor.length];  
+
+        for (int i = 0; i < vetor.length; i++) {
+            vetor[i] = limpar[i];
+        }
+
+        System.out.println(Arrays.toString(vetor));
+    }
+
+    public static void main(String[] args) {
+        remover();
+    }
+}
